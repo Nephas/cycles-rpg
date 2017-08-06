@@ -33,4 +33,4 @@ challenges.
 * Advanced technology holds the same kind of mystery to those who do not
 understand it.
 
-It's all in a very early experimental phase.
+More inside the book - but be warned, it's all in a very early experimental phase.
