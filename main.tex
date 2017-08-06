@@ -1,0 +1,36 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[left=4cm,right=4cm,top=4cm,bottom=4cm]{geometry}
+\usepackage[utf8]{inputenc}
+%\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{tikz}
+\usepackage{eso-pic,graphicx}
+\AddToShipoutPictureBG{%
+  \AtPageLowerLeft{\includegraphics[width=\paperwidth,height=\paperheight]{img/bkg.pdf}}
+  }
+
+\author{Marco Fink}
+\setlength\parindent{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+
+\begin{document}
+\includepdf{img/title.pdf}
+\cleardoublepage
+\tableofcontents
+\newpage
+
+\input{intro.tex}
+\input{world.tex}
+\input{history.tex}
+\input{mankind.tex}
+\input{map.tex}
+
+\end{document}
